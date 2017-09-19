@@ -1,0 +1,154 @@
+/* this is where all of your CSS styles go *//* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#grid_container {
+	width: 800px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -200px;
+}
+
+@-webkit-keyframes t_move {
+
+	100% {	opacity: 1;	}
+}
+
+#t	{
+	-webkit-animation: t_move 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes h_move {
+
+	100% {	opacity: 1;	}
+}
+
+#h	{
+	-webkit-animation: h_move 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes e_move {
+
+	100% {	opacity: 1;	}
+}
+
+#e	{
+	-webkit-animation: e_move 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes ee_move {
+		0% {left:0px; }
+		50% {left: 300px;}
+		100% {left: 200px;}
+	}
+
+	#ee {
+		position:relative;
+		-webkit-animation:ee_move 2s ease;
+		-webkit-animation-fill-mode: forwards;
+		animation-delay: 1s;
+}
+
+
+
+@-webkit-keyframes y_move {
+	0% {left:0px; }
+	50% {left: -410px;}
+	100% {left: -40px;}
+}
+
+#y {
+	position:relative;
+	-webkit-animation:y_move 2s ease;
+	-webkit-animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+
+@-webkit-keyframes eee_move {
+		0% {left:0px; }
+		50% {left: 300px;}
+		100% {left: 50px;}
+	}
+
+	#eee {
+		position:relative;
+		-webkit-animation:eee_move 2s ease;
+		-webkit-animation-fill-mode: forwards;
+		animation-delay: 1s;
+}
+
+
+@-webkit-keyframes s_move {
+		0% {left:0px; }
+		50% {left: 400px;}
+		100% {left: -50px;}
+	}
+
+	#s {
+		position:relative;
+		-webkit-animation:s_move 2s ease;
+		-webkit-animation-fill-mode: forwards;
+		animation-delay: 1s;
+}
+
+.mono {
+	font-family: 'Fjalla One';
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
